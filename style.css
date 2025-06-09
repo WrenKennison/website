@@ -7,13 +7,11 @@
 /* SECTION Tokens
 ================================================================= */
 
-//custom link color
-<style>
-a:lingk {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
+body {
+  background-image: url("treesbackground.png");
+  background-repeat: repeat-x;
 }
+
 
 :root {
   /* Spacing */
@@ -159,6 +157,11 @@ time, mark, audio, video, hr {
   vertical-align: baseline;
 }
 
+#homepage-header{
+  background-image: url('image\treesbackground.jpg')
+}
+
+
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure,
@@ -166,8 +169,12 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
+/*I edited this bit below to try and add a bg imagfe*/
+
 body {
-  line-height: 1;
+ background-image: url("image/treesbackground.jpg");
+   line-height: 1;
+ background-color: #cccccc;
 }
 
 ol, ul {
