@@ -75,6 +75,9 @@ splash[72] = "... thinks love will show us how";
 splash[73] = "it snoed";
 splash[74] = "mental illinois";
 splash[75] = "I know I'm right";
+splash[76] = "I love my friends";
+splash[76] = "I hate my 'friends'";
+
 
 
 RandomNumber = Math.floor(Math.random() * splash.length);
